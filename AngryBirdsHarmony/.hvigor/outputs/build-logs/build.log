@@ -1,0 +1,720 @@
+[2026-04-14T18:53:18.780] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-14T18:53:18.842] [DEBUG] debug-file - env: daemon=true
+[2026-04-14T18:53:18.781] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '6.0.2', dependencies: {} }
+[2026-04-14T18:53:19.695] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-14T18:53:19.701] [DEBUG] debug-file - java daemon started at port 45050 pid 7488
+[2026-04-14T18:53:19.727] [DEBUG] debug-file - session manager: set active socket. socketId=VAxWSbzAUSMlc8UkAAAB
+[2026-04-14T18:53:20.620] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:53:20.623] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-14T18:53:20.624] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-14T18:53:20.625] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-14T18:53:20.628] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-14T18:53:20.630] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T18:53:20.638] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T18:53:20.638] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T18:53:20.639] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T18:53:20.641] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:53:20.642] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:53:20.643] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:53:20.643] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:53:20.643] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:53:20.644] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:53:20.645] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:53:20.645] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:53:20.646] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T18:53:20.646] [DEBUG] debug-file - Configuration phase cost:7 ms 
+[2026-04-14T18:53:20.647] [DEBUG] debug-file - Configuration task cost before running: 17 ms 
+[2026-04-14T18:53:20.661] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-14T18:53:20.662] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-14T18:53:20.662] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-14T18:53:20.662] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-14T18:53:20.662] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-14T18:53:20.662] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-14T18:53:20.662] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-14T18:53:20.662] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-14T18:53:20.663] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T18:53:20.667] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:53:20.667] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:53:20.666] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-14T18:53:20.667] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-14T18:53:20.667] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:53:20.668] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:53:37.658] [DEBUG] debug-file - session manager: set active socket. socketId=fAdz20wdCMwb8ITXAAAD
+[2026-04-14T18:53:37.663] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:53:37.666] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T18:53:37.669] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T18:53:37.669] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T18:53:37.669] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T18:53:37.670] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:53:37.670] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:53:37.670] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:53:37.670] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:53:37.671] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:53:37.671] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:53:37.672] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:53:37.672] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:53:37.672] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T18:53:37.672] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T18:53:37.673] [DEBUG] debug-file - Configuration task cost before running: 7 ms 
+[2026-04-14T18:53:37.680] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T18:53:37.681] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T18:53:37.688] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:53:37.688] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:53:37.688] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:53:37.689] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:54:19.979] [DEBUG] debug-file - session manager: set active socket. socketId=sDUiEulZWpW-JY-xAAAF
+[2026-04-14T18:54:19.984] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:54:19.986] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T18:54:19.989] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T18:54:19.989] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T18:54:19.989] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T18:54:19.990] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:54:19.990] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:54:19.991] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:54:19.991] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:54:19.991] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:54:19.991] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:54:19.992] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:54:19.992] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:54:19.993] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T18:54:19.993] [DEBUG] debug-file - Configuration phase cost:4 ms 
+[2026-04-14T18:54:19.993] [DEBUG] debug-file - Configuration task cost before running: 7 ms 
+[2026-04-14T18:54:20.002] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T18:54:20.002] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T18:54:20.009] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:54:20.009] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:54:20.009] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:54:20.009] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:56:55.409] [DEBUG] debug-file - session manager: set active socket. socketId=_R73mBn20eSbVpoRAAAH
+[2026-04-14T18:56:55.417] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:56:55.419] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T18:56:55.422] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T18:56:55.423] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T18:56:55.423] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T18:56:55.423] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:56:55.424] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:56:55.424] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:56:55.424] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T18:56:55.424] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:56:55.424] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T18:56:55.425] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T18:56:55.425] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T18:56:55.425] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T18:56:55.425] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T18:56:55.425] [DEBUG] debug-file - Configuration task cost before running: 6 ms 
+[2026-04-14T18:56:55.433] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T18:56:55.434] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T18:56:55.438] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:56:55.439] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T18:56:55.440] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T18:56:55.440] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:00:37.847] [DEBUG] debug-file - session manager: set active socket. socketId=_a41axd_jT3oJyAaAAAJ
+[2026-04-14T19:00:37.852] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:00:37.854] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:00:37.857] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:00:37.857] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:00:37.857] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:00:37.858] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:00:37.858] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:00:37.858] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:00:37.859] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:00:37.860] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:00:37.860] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:00:37.860] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:00:37.860] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:00:37.860] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:00:37.860] [DEBUG] debug-file - Configuration phase cost:4 ms 
+[2026-04-14T19:00:37.861] [DEBUG] debug-file - Configuration task cost before running: 7 ms 
+[2026-04-14T19:00:37.869] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:00:37.869] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:00:37.876] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:00:37.877] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:00:37.876] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:00:37.877] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:00:51.819] [DEBUG] debug-file - session manager: set active socket. socketId=R_Q--ouRrohebJGKAAAL
+[2026-04-14T19:00:51.824] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:00:51.827] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:00:51.829] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:00:51.830] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:00:51.830] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:00:51.830] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:00:51.831] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:00:51.831] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:00:51.832] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:00:51.832] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:00:51.832] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:00:51.833] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:00:51.833] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:00:51.833] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:00:51.833] [DEBUG] debug-file - Configuration phase cost:4 ms 
+[2026-04-14T19:00:51.833] [DEBUG] debug-file - Configuration task cost before running: 7 ms 
+[2026-04-14T19:00:51.841] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:00:51.842] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:00:51.849] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:00:51.850] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:00:51.849] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:00:51.850] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:04:24.586] [DEBUG] debug-file - session manager: set active socket. socketId=zRZMIvbHFcMTmeSbAAAN
+[2026-04-14T19:04:24.594] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:04:24.597] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:04:24.599] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:04:24.600] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:04:24.600] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:04:24.600] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:04:24.601] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:04:24.601] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:04:24.601] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:04:24.601] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:04:24.601] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:04:24.602] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:04:24.602] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:04:24.602] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:04:24.602] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T19:04:24.602] [DEBUG] debug-file - Configuration task cost before running: 6 ms 
+[2026-04-14T19:04:24.612] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:04:24.612] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:04:24.618] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:04:24.618] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:04:24.618] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:04:24.619] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:04:32.121] [DEBUG] debug-file - session manager: set active socket. socketId=-Z4S6jYuC7uBc1qkAAAP
+[2026-04-14T19:04:32.126] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:04:32.129] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:04:32.131] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:04:32.131] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:04:32.131] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:04:32.132] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:04:32.132] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:04:32.132] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:04:32.133] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:04:32.133] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:04:32.133] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:04:32.134] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:04:32.134] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:04:32.134] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:04:32.134] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T19:04:32.134] [DEBUG] debug-file - Configuration task cost before running: 6 ms 
+[2026-04-14T19:04:32.142] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:04:32.143] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:04:32.149] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:04:32.149] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:04:32.149] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:04:32.150] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:06:52.380] [DEBUG] debug-file - session manager: set active socket. socketId=t0TXhKONFrWFgslXAAAR
+[2026-04-14T19:06:52.385] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:06:52.387] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:06:52.390] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:06:52.391] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:06:52.391] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:06:52.391] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:06:52.393] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:06:52.393] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:06:52.393] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:06:52.394] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:06:52.394] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:06:52.394] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:06:52.394] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:06:52.394] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:06:52.394] [DEBUG] debug-file - Configuration phase cost:4 ms 
+[2026-04-14T19:06:52.395] [DEBUG] debug-file - Configuration task cost before running: 7 ms 
+[2026-04-14T19:06:52.403] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:06:52.404] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:06:52.411] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:06:52.411] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:06:52.411] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:06:52.412] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:15.732] [DEBUG] debug-file - session manager: set active socket. socketId=3zTFEuakWMQkjZcdAAAT
+[2026-04-14T19:08:15.737] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:15.740] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:08:15.744] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:08:15.744] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:08:15.745] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:08:15.745] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:08:15.746] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:08:15.746] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:08:15.746] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:08:15.746] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:08:15.747] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:08:15.747] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:08:15.747] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:08:15.747] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:08:15.747] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T19:08:15.747] [DEBUG] debug-file - Configuration task cost before running: 8 ms 
+[2026-04-14T19:08:15.756] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:08:15.756] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:08:15.761] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:08:15.762] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:08:15.762] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:15.763] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:21.192] [DEBUG] debug-file - session manager: set active socket. socketId=ESF-1kGMZ7KDjvX9AAAV
+[2026-04-14T19:08:21.198] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:21.200] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:08:21.203] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:08:21.203] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:08:21.203] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:08:21.204] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:08:21.204] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:08:21.204] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:08:21.204] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:08:21.204] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:08:21.205] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:08:21.205] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:08:21.205] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:08:21.205] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:08:21.205] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T19:08:21.206] [DEBUG] debug-file - Configuration task cost before running: 6 ms 
+[2026-04-14T19:08:21.214] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:08:21.214] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:08:21.220] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:08:21.220] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:08:21.220] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:21.221] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:34.238] [DEBUG] debug-file - session manager: set active socket. socketId=HFeJJDnW81Dhn5bsAAAX
+[2026-04-14T19:08:34.243] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:34.246] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:08:34.248] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:08:34.248] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:08:34.249] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:08:34.249] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:08:34.249] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:08:34.250] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:08:34.250] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:08:34.250] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:08:34.250] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:08:34.250] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:08:34.250] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:08:34.251] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:08:34.251] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T19:08:34.251] [DEBUG] debug-file - Configuration task cost before running: 6 ms 
+[2026-04-14T19:08:34.259] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:08:34.259] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:08:34.265] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:08:34.266] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:08:34.266] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:08:34.266] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:12:45.996] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-14T19:12:46.050] [DEBUG] debug-file - env: daemon=true
+[2026-04-14T19:12:45.997] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '6.0.2', dependencies: {} }
+[2026-04-14T19:12:46.852] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-14T19:12:46.857] [DEBUG] debug-file - java daemon started at port 45050 pid 24052
+[2026-04-14T19:12:46.883] [DEBUG] debug-file - session manager: set active socket. socketId=l-cAvYw1-URF-B87AAAB
+[2026-04-14T19:12:47.690] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:12:47.693] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-14T19:12:47.694] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-14T19:12:47.695] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-14T19:12:47.697] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-14T19:12:47.701] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:12:47.708] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:12:47.709] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:12:47.710] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:12:47.711] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:12:47.712] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:12:47.712] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:12:47.713] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:12:47.713] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:12:47.714] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:12:47.715] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:12:47.715] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:12:47.715] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:12:47.716] [DEBUG] debug-file - Configuration phase cost:6 ms 
+[2026-04-14T19:12:47.717] [DEBUG] debug-file - Configuration task cost before running: 16 ms 
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-14T19:12:47.729] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-14T19:12:47.730] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:12:47.734] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:12:47.734] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:12:47.735] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-14T19:12:47.735] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-14T19:12:47.736] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:12:47.736] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:05.387] [DEBUG] debug-file - session manager: set active socket. socketId=27zxyqkLr1EBDSZHAAAD
+[2026-04-14T19:20:05.395] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:05.398] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:20:05.401] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:20:05.401] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:20:05.401] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:20:05.402] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:05.402] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:05.402] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:05.402] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:05.403] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:05.403] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:05.403] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:05.403] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:05.404] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:20:05.404] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T19:20:05.404] [DEBUG] debug-file - Configuration task cost before running: 7 ms 
+[2026-04-14T19:20:05.413] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:20:05.414] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:20:05.419] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:05.419] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:05.419] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:05.419] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:23.376] [DEBUG] debug-file - session manager: set active socket. socketId=Uo8bGv85e3zglfl0AAAF
+[2026-04-14T19:20:23.382] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:23.385] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:20:23.388] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:20:23.389] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:20:23.389] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:20:23.389] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:23.390] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:23.390] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:23.390] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:23.391] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:23.391] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:23.391] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:23.391] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:23.392] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:20:23.392] [DEBUG] debug-file - Configuration phase cost:4 ms 
+[2026-04-14T19:20:23.393] [DEBUG] debug-file - Configuration task cost before running: 8 ms 
+[2026-04-14T19:20:23.401] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:20:23.401] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:20:23.407] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:23.408] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:23.408] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:23.408] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:29.738] [DEBUG] debug-file - session manager: set active socket. socketId=Ovb_Avsdxe7Wr-srAAAH
+[2026-04-14T19:20:29.744] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:29.746] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:20:29.748] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:20:29.749] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:20:29.749] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:20:29.749] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:29.750] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:29.750] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:29.750] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:29.751] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:29.751] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:29.751] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:29.751] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:29.752] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:20:29.752] [DEBUG] debug-file - Configuration phase cost:3 ms 
+[2026-04-14T19:20:29.752] [DEBUG] debug-file - Configuration task cost before running: 6 ms 
+[2026-04-14T19:20:29.760] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:20:29.760] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:20:29.767] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:29.767] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:29.767] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:29.768] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:52.357] [DEBUG] debug-file - session manager: set active socket. socketId=l99_q4T0pUXDSJBuAAAJ
+[2026-04-14T19:20:52.361] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:52.364] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-14T19:20:52.367] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-14T19:20:52.367] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-14T19:20:52.367] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-14T19:20:52.368] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:52.369] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:52.369] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:52.369] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-04-14T19:20:52.369] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:52.370] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-04-14T19:20:52.370] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-04-14T19:20:52.370] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-04-14T19:20:52.370] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-04-14T19:20:52.370] [DEBUG] debug-file - Configuration phase cost:4 ms 
+[2026-04-14T19:20:52.370] [DEBUG] debug-file - Configuration task cost before running: 7 ms 
+[2026-04-14T19:20:52.378] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-14T19:20:52.379] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-14T19:20:52.385] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:52.385] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-14T19:20:52.385] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-14T19:20:52.385] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-05-19T19:09:50.560] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-05-19T19:09:50.625] [DEBUG] debug-file - env: daemon=true
+[2026-05-19T19:09:50.562] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '6.0.2', dependencies: {} }
+[2026-05-19T19:09:51.594] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-05-19T19:09:51.599] [DEBUG] debug-file - java daemon started at port 45050 pid 28480
+[2026-05-19T19:09:51.629] [DEBUG] debug-file - session manager: set active socket. socketId=tXZNY9pBVWazNcyZAAAB
+[2026-05-19T19:09:52.609] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-05-19T19:09:52.613] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-05-19T19:09:52.614] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-05-19T19:09:52.615] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-05-19T19:09:52.617] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-05-19T19:09:52.620] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-05-19T19:09:52.628] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-05-19T19:09:52.629] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-05-19T19:09:52.629] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-05-19T19:09:52.631] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-05-19T19:09:52.633] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-05-19T19:09:52.633] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-05-19T19:09:52.633] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\hvigorfile.js
+[2026-05-19T19:09:52.635] [DEBUG] debug-file - hvigorfile, resolving D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-05-19T19:09:52.635] [DEBUG] debug-file - hvigorfile, require result:  { system: [], plugins: [] }
+[2026-05-19T19:09:52.636] [DEBUG] debug-file - hvigorfile, binding system plugins { system: [], plugins: [] }
+[2026-05-19T19:09:52.636] [DEBUG] debug-file - hvigorfile, resolve finished D:\dawang6666\AngryBirdsHarmony\entry\hvigorfile.js
+[2026-05-19T19:09:52.637] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 1 ms 
+[2026-05-19T19:09:52.637] [DEBUG] debug-file - Configuration phase cost:8 ms 
+[2026-05-19T19:09:52.638] [DEBUG] debug-file - Configuration task cost before running: 18 ms 
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Cleanup worker 0.
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Cleanup worker 1.
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-05-19T19:09:52.655] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-05-19T19:09:52.656] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-05-19T19:09:52.658] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-05-19T19:09:52.659] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-05-19T19:09:52.658] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-05-19T19:09:52.658] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-05-19T19:09:52.659] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-05-19T19:09:52.660] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
